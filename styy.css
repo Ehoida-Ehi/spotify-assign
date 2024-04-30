@@ -1,0 +1,420 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.flex1{
+    display: flex;
+    position: relative;
+}
+.sidebar{
+    background-color: black;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 30px;
+    padding-top: 100px;
+    cursor: pointer;
+
+}
+
+.main-content{
+    background-color: black;
+    width: 85%;
+    position: absolute;
+    right: 0;
+    padding-top: 40px 0 0 0;
+    height: 2000px;
+}
+ .sidebar-icons p{
+    color: white;
+    font-weight: 600;
+ }
+
+.nav{
+    width: 100%;
+    background-color: black;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    right: 0;
+    gap: 30px;
+    padding-right: 60px;
+    z-index: 1;
+
+}
+
+.btn-ehi{
+margin: 10px 0 10px 0;
+}
+
+.btn-nosa {
+    margin: 10px 0 10px 0;
+}
+
+.btn-ehi button{
+    background-color: black;
+    color: grey;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.btn-nosa button{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-weight: 800;
+    width: 100px;
+    padding: 15px 10px;
+    border: .1px -solid grey;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.sidebar-icons{
+display: flex;
+}
+
+
+.sidebar-iconsA img{
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    
+}
+.sidebar-iconsA p{
+    color: white;
+    font-weight: 600;
+}
+
+.sidebar-iconsA{
+    display: flex;
+}
+
+.sidebar-icons img{
+    width: 50px;
+    background-color:white;
+    border-radius: 50%;
+}
+
+.btn-ehi button:hover{
+    color: white;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    
+    
+}
+
+.parent-item{
+    padding-top: 60px;
+    height: 300px;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.parent-item-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 40px;
+}
+
+.parent-item-text h1{
+    cursor: pointer;
+    color: white;
+    font-weight: 1000;
+
+}
+
+.parent-item-text h1:hover{
+    text-decoration: underline;
+}
+
+.parent-item-text p{
+    cursor: pointer;
+    color: grey;
+    font-weight: 600;
+}
+
+.parent-item-text p:hover{
+    text-decoration: underline;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+
+}
+
+.flex-item{
+    background-image:url(./images/shallipopi.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.flex-itemB{
+    background-image: url(./images/asake.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.flex-itemC{
+    background-image:url(./images/kizz-daniel.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.flex-itemD{
+    background-image:url(./images/young-john.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.flex-itemE{
+    background-image:url(./images/burna-boy.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.flex-itemF{
+    background-image: url(./images/shakes-popi.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.flex-itemG{
+    background-image:url(./images/jiggy-forever.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px
+}
+
+.flex-itemH{
+    background-image:url(./images/work-of-art.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px
+}
+
+.flex-itemI{
+    background-image:url(./images/ruger.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px
+}
+
+.flex-itemJ{
+    background-image:url(./images/seyi-vibez.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px
+}
+.container{
+    padding-left: 10px;
+    cursor: pointer;
+    height: 300px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.container h2{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+.container p{
+    color: grey;
+    font-size: 12px;
+    margin: 0;
+    padding-left: 30px;
+}
+
+.container:hover{
+    background-color: purple;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+}
+
+.container:hover .play{
+    display: block;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.play{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 17px;
+    right: 0;
+    display: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.play img{
+    width: 20px;
+    padding-bottom: 10px;
+}
+
+.play:hover{
+    scale: 1.1;
+}
+
+
